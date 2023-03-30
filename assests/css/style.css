@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(../images/perth.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background: #0a182879;
+}
+div.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 0px 5%;
+    text-align: left;
+    display: inline-block;
+    height: 50px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+nav a{
+    color: rgb(176, 153, 20);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid rgba(176, 153, 20, 0.115);
+    padding: 7px 10px;
+    border-radius: 15px;
+}
+nav a:hover{
+    color: rgb(129, 144, 131);
+    background-color: rgba(214, 105, 15, 0.287);
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    color: rgb(176, 153, 20);
+    font-family: cursive;
+}
+    
+.box{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: calc(400px - 30px);
+    width: calc(400px - 30px);
+    background: #0a182879;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: -100px;
+    border: 2px solid rgba(176, 153, 20, 0.133);
+}
+.box h2{
+    font-family: serif;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.box h2:hover {
+    font-family: serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: rgb(129, 144, 131);
+    cursor: pointer;
+} 
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #0a182879;
+    height: 50px;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color: #b09914;
+    margin-bottom: -600px;
+    margin-left: -80px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom{
+    width: 30%;
+    padding: 20px 10;
+    text-align: center;
+    justify-content: center;
+    float: right;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid rgba(176, 153, 20, 0.133);
+    ;
+}
+@media screen and (max-width: 1425px){
+    nav{
+        padding: 16px 3%;
+        transition: .3s;
+    }
+}
+@media screen and (max-width: 900px){
+    nav li {
+        height: 180px;
+        width: 200px;
+    }
+    box{
+        background: #1450b0;
+    }
+}
+@media screen and (max-width: 650px){
+}
